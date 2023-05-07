@@ -14,6 +14,6 @@ require("wise1685.plugins.lsp.null-ls")
 require("wise1685.plugins.autopairs")
 require("wise1685.plugins.treesitter")
 require("wise1685.plugins.gitsigns")
-vim.opt.hidden = true
-vim.opt.wildignore = ""
-vim.opt.nohlsearch = true
+vim.g.nvim_tree_show_hidden = 1
+vim.g.nvim_tree_ignore = { ".git", "node_modules", ".cache" }
+vim.g.nvim_tree_gitignore = 0
