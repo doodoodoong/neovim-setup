@@ -14,3 +14,4 @@ require("wise1685.plugins.lsp.null-ls")
 require("wise1685.plugins.autopairs")
 require("wise1685.plugins.treesitter")
 require("wise1685.plugins.gitsigns")
+vim.g.nvim_tree_show_hidden = 1
