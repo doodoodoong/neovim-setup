@@ -14,4 +14,4 @@ require("wise1685.plugins.lsp.null-ls")
 require("wise1685.plugins.autopairs")
 require("wise1685.plugins.treesitter")
 require("wise1685.plugins.gitsigns")
-vim.g.material_style = "deep ocean"
+vim.cmd([[hi Normal guibg=NONE ctermbg=NONE]])
