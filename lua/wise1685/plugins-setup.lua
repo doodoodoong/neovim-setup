@@ -100,7 +100,10 @@ return packer.startup(function(use)
 		end,
 	})
 	-- material color theme
-	use("marko-cerovac/material.nvim")
+	use({
+		"svrana/neosolarized.nvim",
+		requires = { "tjdevries/colorbuddy.nvim" },
+	})
 	-- auto closing
 	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
