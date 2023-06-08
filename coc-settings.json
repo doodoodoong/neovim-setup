@@ -1,4 +1,4 @@
 {
   "suggest.autoTrigger": "none",
-  "coc.preferences.signatureHelpTirggersCharacters": ["(", ",")"]
+  "coc.preferences.signatureHelpTirggersCharacters": ["(", ",", "{"]
 }
