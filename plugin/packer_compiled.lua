@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/seongsik/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  ["dart-vim-plugin"] = {
+    loaded = true,
+    path = "/Users/seongsik/.local/share/nvim/site/pack/packer/start/dart-vim-plugin",
+    url = "https://github.com/dart-lang/dart-vim-plugin"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/seongsik/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -235,6 +240,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/seongsik/.local/share/nvim/site/pack/packer/start/vim-ReplaceWithRegister",
     url = "https://github.com/inkarkat/vim-ReplaceWithRegister"
+  },
+  ["vim-lsc"] = {
+    loaded = true,
+    path = "/Users/seongsik/.local/share/nvim/site/pack/packer/start/vim-lsc",
+    url = "https://github.com/natebosch/vim-lsc"
+  },
+  ["vim-lsc-dart"] = {
+    loaded = true,
+    path = "/Users/seongsik/.local/share/nvim/site/pack/packer/start/vim-lsc-dart",
+    url = "https://github.com/natebosch/vim-lsc-dart"
   },
   ["vim-maximizer"] = {
     loaded = true,

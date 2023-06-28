@@ -114,6 +114,10 @@ return packer.startup(function(use)
 	use({ "neoclide/coc.nvim", branch = "release" })
 	-- bufferline
 	use("akinsho/nvim-bufferline.lua")
+	-- dart-lang
+	use("dart-lang/dart-vim-plugin")
+	use("natebosch/vim-lsc")
+	use("natebosch/vim-lsc-dart")
 
 	if packer_bootstrap then
 		require("packer").sync()
